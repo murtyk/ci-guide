@@ -6,8 +6,3 @@
     - name: test
       service: demo
       command: bundle exec ruby test.rb
-
-- name: example_tagged_step
-  tag: master
-  service: codeship_example
-  command: echo "Deploy here!"
